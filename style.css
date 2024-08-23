@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #f1f1f1 50%, white 50%);
+  /* overflow-y: hidden;  */
+}
+.container1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+.logo {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: -150px;
+}
+.logo h1 {
+  font-size: 45px;
+}
+.logo img {
+  margin-right: 10px;
+}
+.nav {
+  text-decoration: none;
+  color: rgb(48, 42, 42);
+  font-size: 40px;
+  display: flex;
+  position: relative;
+  gap: 30px;
+  right: -50px;
+}
+.nav:hover {
+  color: black;
+}
+h2 {
+  font-size: 60px;
+  font-weight: 500;
+}
+.main {
+  width: 100%;
+}
+.image {
+  width: 30%;
+  position: relative;
+  right: -750px;
+  top: -360px;
+}
+aside {
+  width: 400px;
+  position: relative;
+  top: 50px;
+  right: -70px;
+}
+aside p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+button {
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  padding: 20px 40px;
+  margin-top: 10px;
+  font-size: 20px;
+  width: 284px;
+  height: 64px;
+}
+@media (max-width: 932px) {
+  body {
+    background: linear-gradient(to bottom, #f1f1f1 50%, white 50%);
+  }
+  .nav {
+    display: none;
+  }
+  .logo h1 {
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    right:-90px;
+  }
+  .logo img {
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    right:-90px;
+  }
+  .main{
+    width:90%;
+  }
+  .image {
+    width: 70%;
+    position: relative;
+    top: -300px;
+    right: -150px;
+  }
+  h2 {
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+    top: 610px;
+    right: -200px;
+  }
+  aside p {
+    font-size: 20px;
+    margin-top: 10px;
+    position: relative;
+    top: 615px;
+    right: -200px;
+  }
+  button {
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    padding: 20px 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 284px;
+    height: 64px;
+    position: relative;
+    top: 620px;
+    right: -200px;
+  }
+}
